@@ -1,0 +1,44 @@
+tagName
+id
+name
+className
+linkText
+partialLinkText
+xpath absolute xpath/relative xpath
+css selector
+
+absolute xpath
+/html/body/div/tagnameofWebElement
+
+relative xpath
+
+xpath using tagName
+//tagName
+
+xpath using index
+//tagName[index]
+//tagName[index]/tagName
+
+xpath using signature
+(//xpath)[index]
+
+xpath using attribute
+//tagName[@attributeName='AttributeValue']
+
+xpath using text function
+//tagName[text()='textValue']
+
+xpath using contains with attribute
+//tagName[contains(@attributeName,'attributeValue')]
+
+xpath using contains with text function
+//tagName[conrains(text(),'textValue')]
+
+
+
+
+
+
+
+
+
